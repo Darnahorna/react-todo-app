@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --first-color: #3c4245;
+  --second-color: #5f6769;
+  --third-color: #719192;
+  --fourth-color: #dbd8e3;
+  --white-color: white;
+  --border-radius: 0.75em;
+  --regular-font-size: 0.875rem;
+}
+
+body {
+  background: radial-gradient(
+    788px at 0.7% 3.4%,
+    rgb(164, 231, 192) 0%,
+    rgb(255, 255, 255) 90%
+  );
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--first-color);
+}

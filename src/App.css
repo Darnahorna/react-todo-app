@@ -1,0 +1,30 @@
+main {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(16.25rem, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(16.25rem, 1fr);
+  overflow-x: auto;
+  margin-top: 5vh;
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+}
+
+/*  `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+}
+
+/*  `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+}
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+}
+
+/*  `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) {
+}
